@@ -400,11 +400,7 @@ p {
 
 a {
   -webkit-text-decoration-skip: objects;
-  text-decoration: none;
-  -webkit-transition: color 0.3s, background 0.3s;
-  -o-transition: color 0.3s, background 0.3s;
-  -moz-transition: color 0.3s, background 0.3s;
-  transition: color 0.3s, background 0.3s; }
+  text-decoration: none; }
 
 svg:not(:root) {
   overflow: hidden; }

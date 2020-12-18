@@ -204,6 +204,9 @@
   .header__main-logo--img a {
     text-decoration: none; }
 
+.header__main-logo--fix {
+  display: none; }
+
 .header__main-logo--text {
   display: none;
   font: 300 14px/16px "Roboto", sans-serif;
@@ -492,6 +495,43 @@
     padding-top: 0;
     margin-top: 10px; }
   .header__main--search {
-    padding: 0 33px 0 68px; } }
+    padding: 0 33px 0 68px; }
+  .is-content-fixed {
+    margin-top: 58px !important; }
+  .header__section {
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    height: 179px; }
+  .wrapper__section {
+    margin-top: 179px !important; }
+  .header__section.is-fixed {
+    height: 58px; }
+    .header__section.is-fixed .header__main-logo--fix {
+      display: block; }
+    .header__section.is-fixed .header__main-content--bottom,
+    .header__section.is-fixed .header__main-logo--default,
+    .header__section.is-fixed .header__main-logo--text,
+    .header__section.is-fixed .header__main-phone--txt,
+    .header__section.is-fixed .header__main-phone-col--two,
+    .header__section.is-fixed .header__main-basket--town {
+      display: none !important; }
+    .header__section.is-fixed .header__main-phone--link,
+    .header__section.is-fixed .header__main-basket--title,
+    .header__section.is-fixed .header__main-basket--value {
+      color: #fff !important; }
+    .header__section.is-fixed .header__main--container {
+      background: #006E39;
+      padding: 2px 0 4px 4px; }
+    .header__section.is-fixed .header__main--basket {
+      padding-top: 2px; }
+    .header__section.is-fixed .header__main--logo {
+      width: 192px;
+      padding-top: 2px; }
+    .header__section.is-fixed .header__main--phones {
+      padding-top: 1px; }
+    .header__section.is-fixed .header__main-content--blocks {
+      padding-left: 24px; } }
 
 /* END 1023px */
