@@ -7,7 +7,7 @@ try {
  $(window).scroll(function() { 
   var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
 
-  if (top > 60) { 
+  if (top > 240) { 
    $('.header__section').addClass('is-fixed');
    $('.wrapper__section').addClass('is-content-fixed');
   }else{
