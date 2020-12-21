@@ -678,7 +678,7 @@
     height: 253px; }
   .wrapper__section {
     margin-top: 253px !important; }
-  .is-content-fixed {
+  .wrapper__section.is-content-fixed {
     margin-top: 50px !important; }
   .header__main--logo {
     margin-left: -39px;
@@ -712,3 +712,96 @@
     margin-top: 28px; } }
 
 /* END 767px */
+/* START 479px */
+@media (max-width: 479px) {
+  .header__section {
+    height: 180px; }
+  .wrapper__section {
+    margin-top: 180px !important; }
+  .header__main--burger {
+    width: 50px; }
+  .header__main-phone--call {
+    display: none; }
+  .header__main-mobile--btn {
+    height: 46px; }
+    .header__main-mobile--btn i {
+      width: 33px;
+      margin: 3px 0; }
+  .header__main-mobile--btn.is-active i:first-child {
+    top: 6px; }
+  .header__main-basket--link {
+    width: 142px;
+    padding-right: 10px; }
+  .header__main-basket--icon {
+    width: 25px; }
+  .header__main-basket--title,
+  .header__main-basket--value {
+    font-size: 10px;
+    line-height: 12px; }
+  .header__main-basket--block {
+    padding-left: 4px; }
+  .header__main-basket--value {
+    margin-top: 1px; }
+  .header__main--basket {
+    padding-right: 0; }
+  .header__top-town--title,
+  .header__top-town-action--link {
+    font-size: 10px;
+    line-height: 12px; }
+  .header__top-town--action {
+    padding-top: 0; }
+  .header__top-town--title {
+    padding-top: 3px; }
+  .header__main--container {
+    padding: 3px 0 14px 3px; }
+  .header__main--logo {
+    width: 175px;
+    margin-left: -42px; }
+  .header__main-logo--img {
+    width: 140px; }
+  .header__main-logo--text {
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 5px; }
+  .header__main-phone--txt {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 7px; }
+  .header__main-phone--link {
+    font-size: 16px;
+    line-height: 24px; }
+  .header__main--phones {
+    padding-right: 13px;
+    margin-top: 22px; }
+  .header__main-search--input {
+    height: 27px;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0 7px; }
+  .header__main-search--action {
+    width: 75px; }
+  .header__main-search--btn {
+    height: 27px;
+    font-size: 11px;
+    line-height: 13px; }
+  .header__main--search {
+    padding: 0 15px 0 12px; }
+  .header__main--logo {
+    margin-top: 25px; }
+  .header__main-phone-col--two {
+    margin-top: 1px; }
+  .header__main-content--bottom {
+    margin-top: 13px; }
+  .header__section.is-fixed .header__main--container {
+    padding: 2px 0 7px 2px; }
+  .header__section.is-fixed .header__main--basket {
+    width: 145px;
+    padding-top: 10px; }
+  .header__section.is-fixed .header__main-basket--title,
+  .header__section.is-fixed .header__main-basket--value {
+    font-size: 10px;
+    line-height: 12px; }
+  .header__section.is-fixed .header__main--phones {
+    padding-top: 4px; } }
+
+/* END 479px */
