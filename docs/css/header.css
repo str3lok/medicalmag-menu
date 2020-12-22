@@ -647,6 +647,12 @@
   .header__top-town-action--link {
     font-size: 12px;
     line-height: 14px; }
+  .header__top-town--title,
+  .header__top-town--action {
+    padding-top: 0;
+    height: 14px; }
+  .header__top-town--action {
+    line-height: 14px; }
   .header__top-town--action {
     -webkit-box-flex: inherit;
     -webkit-flex-grow: inherit;
@@ -747,11 +753,18 @@
   .header__top-town--title,
   .header__top-town-action--link {
     font-size: 10px;
-    line-height: 12px; }
+    line-height: 13px; }
   .header__top-town--action {
     padding-top: 0; }
   .header__top-town--title {
-    padding-top: 3px; }
+    padding-top: 0;
+    height: 13px; }
+  .header__top-town--title,
+  .header__top-town--action,
+  .header__top-town-action--link {
+    height: 13px; }
+  .header__top-town--action {
+    line-height: 13px; }
   .header__main--container {
     padding: 3px 0 14px 3px; }
   .header__main--logo {
